@@ -1,0 +1,275 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R_PHOTO R1
+U 1 1 5E49D8A4
+P 4850 3650
+F 0 "R1" H 4920 3696 50  0000 L CNN
+F 1 "LDR_LEFT" H 4920 3605 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" V 4900 3400 50  0001 L CNN
+F 3 "~" H 4850 3600 50  0001 C CNN
+	1    4850 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_PHOTO R2
+U 1 1 5E49E602
+P 5800 3650
+F 0 "R2" H 5870 3696 50  0000 L CNN
+F 1 "LDR_RIGHT" H 5870 3605 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" V 5850 3400 50  0001 L CNN
+F 3 "~" H 5800 3600 50  0001 C CNN
+	1    5800 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT1
+U 1 1 5E49F999
+P 5000 3000
+F 0 "BT1" H 5118 3096 50  0000 L CNN
+F 1 "Battery_Cell" H 5118 3005 50  0000 L CNN
+F 2 "library:keytone1074-middle-ground" V 5000 3060 50  0001 C CNN
+F 3 "~" V 5000 3060 50  0001 C CNN
+	1    5000 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 3800 5400 3800
+Wire Wire Line
+	5400 3800 5400 4000
+Wire Wire Line
+	5800 3800 5500 3800
+Wire Wire Line
+	5500 3800 5500 3950
+Wire Wire Line
+	5500 3950 4850 3950
+Wire Wire Line
+	6400 2800 6400 3400
+Wire Wire Line
+	6400 3400 5800 3400
+Wire Wire Line
+	5800 3400 5800 3500
+Wire Wire Line
+	5800 3400 4850 3400
+Wire Wire Line
+	4850 3400 4850 3500
+Connection ~ 5800 3400
+$Comp
+L power:GND #PWR01
+U 1 1 5E4A5445
+P 5000 3100
+F 0 "#PWR01" H 5000 2850 50  0001 C CNN
+F 1 "GND" H 5005 2927 50  0000 C CNN
+F 2 "" H 5000 3100 50  0001 C CNN
+F 3 "" H 5000 3100 50  0001 C CNN
+	1    5000 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 5E4BD38A
+P 4850 4450
+F 0 "#PWR03" H 4850 4200 50  0001 C CNN
+F 1 "GND" H 4855 4277 50  0000 C CNN
+F 2 "" H 4850 4450 50  0001 C CNN
+F 3 "" H 4850 4450 50  0001 C CNN
+	1    4850 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5E4BD88D
+P 6050 4450
+F 0 "#PWR04" H 6050 4200 50  0001 C CNN
+F 1 "GND" H 6055 4277 50  0000 C CNN
+F 2 "" H 6050 4450 50  0001 C CNN
+F 3 "" H 6050 4450 50  0001 C CNN
+	1    6050 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_PHOTO R5
+U 1 1 5E4C923D
+P 6400 3650
+F 0 "R5" H 6470 3696 50  0000 L CNN
+F 1 "LDR_RIGHT" H 6470 3605 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" V 6450 3400 50  0001 L CNN
+F 3 "~" H 6400 3600 50  0001 C CNN
+	1    6400 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_PHOTO R6
+U 1 1 5E4C9E48
+P 7050 3650
+F 0 "R6" H 7120 3696 50  0000 L CNN
+F 1 "LDR_RIGHT" H 7120 3605 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" V 7100 3400 50  0001 L CNN
+F 3 "~" H 7050 3600 50  0001 C CNN
+	1    7050 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_PHOTO R4
+U 1 1 5E4CA475
+P 4300 3650
+F 0 "R4" H 4370 3696 50  0000 L CNN
+F 1 "LDR_LEFT" H 4370 3605 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" V 4350 3400 50  0001 L CNN
+F 3 "~" H 4300 3600 50  0001 C CNN
+	1    4300 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_PHOTO R3
+U 1 1 5E4CAC5D
+P 3700 3650
+F 0 "R3" H 3770 3696 50  0000 L CNN
+F 1 "LDR_LEFT" H 3770 3605 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" V 3750 3400 50  0001 L CNN
+F 3 "~" H 3700 3600 50  0001 C CNN
+	1    3700 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 3400 4300 3400
+Wire Wire Line
+	4300 3400 4300 3500
+Connection ~ 4850 3400
+Wire Wire Line
+	4300 3400 3700 3400
+Wire Wire Line
+	3700 3400 3700 3500
+Connection ~ 4300 3400
+Wire Wire Line
+	3700 3800 4300 3800
+Wire Wire Line
+	4300 3800 4850 3800
+Connection ~ 4300 3800
+Connection ~ 4850 3800
+Wire Wire Line
+	6400 3400 6400 3500
+Connection ~ 6400 3400
+Wire Wire Line
+	6400 3400 7050 3400
+Wire Wire Line
+	7050 3400 7050 3500
+Wire Wire Line
+	7050 3800 6400 3800
+Wire Wire Line
+	6400 3800 5800 3800
+Connection ~ 6400 3800
+Connection ~ 5800 3800
+$Comp
+L LightFollower-rescue:MountingHole_Pad-Mechanical H1
+U 1 1 5E4AE3BD
+P 5725 2000
+F 0 "H1" H 5825 2049 50  0000 L CNN
+F 1 "MountingHole_Pad" H 5825 1958 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 5725 2000 50  0001 C CNN
+F 3 "~" H 5725 2000 50  0001 C CNN
+	1    5725 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 3100 5800 3100
+Wire Wire Line
+	5600 2800 5600 3100
+Wire Wire Line
+	5000 2800 5600 2800
+$Comp
+L Device:Battery_Cell BT2
+U 1 1 5E4CABA2
+P 5800 3000
+F 0 "BT2" H 5918 3096 50  0000 L CNN
+F 1 "Battery_Cell" H 5918 3005 50  0000 L CNN
+F 2 "library:keytone1074-middle-ground" V 5800 3060 50  0001 C CNN
+F 3 "~" V 5800 3060 50  0001 C CNN
+	1    5800 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 2800 6400 2800
+$Comp
+L Connector:Conn_01x02_Female J2
+U 1 1 5E5AC90B
+P 6250 4350
+F 0 "J2" H 6278 4326 50  0000 L CNN
+F 1 "Mot_Right" H 6278 4235 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6250 4350 50  0001 C CNN
+F 3 "~" H 6250 4350 50  0001 C CNN
+	1    6250 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J1
+U 1 1 5E5AD08C
+P 5050 4350
+F 0 "J1" H 5078 4326 50  0000 L CNN
+F 1 "Mot_Left" H 5078 4235 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5050 4350 50  0001 C CNN
+F 3 "~" H 5050 4350 50  0001 C CNN
+	1    5050 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 3950 4850 4350
+Wire Wire Line
+	6050 4000 6050 4350
+Wire Wire Line
+	5400 4000 6050 4000
+$Comp
+L power:GND #PWR0103
+U 1 1 5E5C33EF
+P 5725 2100
+F 0 "#PWR0103" H 5725 1850 50  0001 C CNN
+F 1 "GND" H 5730 1927 50  0000 C CNN
+F 2 "" H 5725 2100 50  0001 C CNN
+F 3 "" H 5725 2100 50  0001 C CNN
+	1    5725 2100
+	1    0    0    -1  
+$EndComp
+Text Label 5375 3400 0    50   ~ 0
++6V
+Text Label 4925 3800 0    50   ~ 0
+LDR_LEFT
+Text Label 5900 3800 0    50   ~ 0
+LDR_RIGHT
+$Comp
+L power:GND #PWR0101
+U 1 1 5E4A708D
+P 7150 2100
+F 0 "#PWR0101" H 7150 1850 50  0001 C CNN
+F 1 "GND" H 7155 1927 50  0000 C CNN
+F 2 "" H 7150 2100 50  0001 C CNN
+F 3 "" H 7150 2100 50  0001 C CNN
+	1    7150 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5E4A64BA
+P 7150 2100
+F 0 "#FLG0101" H 7150 2175 50  0001 C CNN
+F 1 "PWR_FLAG" H 7150 2273 50  0000 C CNN
+F 2 "" H 7150 2100 50  0001 C CNN
+F 3 "~" H 7150 2100 50  0001 C CNN
+	1    7150 2100
+	1    0    0    -1  
+$EndComp
+Text Label 5250 2800 0    50   ~ 0
++3V
+$EndSCHEMATC
