@@ -1,5 +1,7 @@
 # light-follower-PCB
-Light Following "Robot"
+Light Following "Robot" as seen here: https://www.youtube.com/watch?v=BxwEkaiICWw
+
+
 
 # Parts
 
