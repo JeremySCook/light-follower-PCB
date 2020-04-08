@@ -9,3 +9,5 @@ Micro Gearmotor https://amzn.to/39SnwqA (Amazon Affiliate)
 CR2032 holder https://www.ebay.com/itm/10-pcs-Button-Cell-Sockets-CR2032-Vertical-Battery-Holders-Brass-Contact/264331560972  
 LDRs  
 Zip ties
+
+PCBs available for purchase: https://www.tindie.com/products/JeremySCook/light-follower-robot-pcb/
